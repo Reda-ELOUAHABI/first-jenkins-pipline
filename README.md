@@ -64,3 +64,10 @@ C:\ProgramData\Jenkins\.jenkins\secrets\initialAdminPassword
 
 # This message is shown once a day. To disable it please create the
 # /home/reda/.hushlogin file.
+
+
+
+
+<!-- run an image : docker run --rm -d  -p 8000:8000/tcp node-pip:latest -->
+
+<!-- push an image directly: docker push redaelouahabi98/node-pip:latest -->
