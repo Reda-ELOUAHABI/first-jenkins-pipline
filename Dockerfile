@@ -2,7 +2,7 @@
 FROM node:7-onbuild
 
 # # set maintainer
-# LABEL maintainer "miiro@getintodevops.com"
+LABEL maintainer "miiro@getintodevops.com"
 # some tutos
 # COPY main.js /   which means : [copy 'main.js' to '/'' in the image]
 # set a health check
