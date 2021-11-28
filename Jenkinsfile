@@ -11,8 +11,8 @@ node {
         /* This builds the actual image; synonymous to
          * docker build on the command line */
 
-        // app = docker.build("node-pip/.")
-        sh 'docker build -t node-pip .'
+        app = docker.build("redaelouahabi98/pi_s4")
+        // sh 'docker build -t node-pip .'
     }
 
     stage('Test image') {

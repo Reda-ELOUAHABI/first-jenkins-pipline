@@ -1,8 +1,8 @@
 # use a node base image
 FROM node:7-onbuild
 
-# # set maintainer
-LABEL maintainer "miiro@getintodevops.com"
+# # set maintainer OPTIONAL
+# LABEL maintainer "miiro@getintodevops.com"
 # some tutos
 # COPY main.js /   which means : [copy 'main.js' to '/'' in the image]
 # set a health check
