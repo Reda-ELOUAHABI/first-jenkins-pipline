@@ -12,7 +12,7 @@ node {
          * docker build on the command line */
 
         // app = docker.build("node-pipline-by-jenkins",".")
-        bat 'echo "Let Build the image : "'
+        // bat 'echo "Let Build the image : "'
         app = docker.build("redaelouahabi98/nodedemo")
         bat 'echo "build passed"'
         
