@@ -14,6 +14,7 @@ node {
         // app = docker.build("node-pipline-by-jenkins",".")
         bat 'echo "Let Build the image : "'
         app = docker.build("redaelouahabi98/nodedemo")
+        bat 'echo "build passed"'
         
         // sh 'docker build -t node-pip .'
     }
