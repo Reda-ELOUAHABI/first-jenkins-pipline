@@ -12,7 +12,7 @@ node {
          * docker build on the command line */
 
         // app = docker.build("node-pipline-by-jenkins",".")
-        sh 'echo "Let Build the image : "'
+        bat "Let Build the image : "
         app = docker.build("redaelouahabi98/nodedemo")
         
         // sh 'docker build -t node-pip .'
@@ -23,7 +23,7 @@ node {
          * For this example, we're using a Volkswagen-type approach ;-) */
 
         app.inside {
-            sh 'echo "Tests passed"'
+            bat 'echo Tests passed'
         }
     }
 
