@@ -11,8 +11,10 @@ node {
         /* This builds the actual image; synonymous to
          * docker build on the command line */
 
-        app = docker.build("node-pipline-by-jenkins")
-        // app = docker.build("redaelouahabi98/pi_s4")
+        // app = docker.build("node-pipline-by-jenkins",".")
+        sh 'echo "Let Build the image : "'
+        app = docker.build("redaelouahabi98/nodedemo")
+        
         // sh 'docker build -t node-pip .'
     }
 
